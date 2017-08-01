@@ -6,13 +6,14 @@ import sys
 
 def main():
     filename = sys.argv[1]
-    file_name, extension = os.path.splitext(sys.argv[1])
+    print validate(filename)
     
+def validate(filename):
+    file_name, extension = os.path.splitext(filename)
     # look for extension's module
     module = __import__("filetypes" + extension, globals(), locals(), ['check', 'description'])
     print module.description()
-    print module.check(filename)
-    
+    return module.check(filename)  
     
 
 if __name__ == '__main__':
