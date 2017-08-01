@@ -1,0 +1,6 @@
+##gff-version 3
+scaffold_1	phytozome8_0	gene	6414	7127	.	-	.	ID=Aquca_001_00001;Name=Aquca_001_00001
+scaffold_1	phytozome8_0	mRNA	6414	7127	.	-	.	ID=PAC:22043112;Name=Aquca_001_00001.1;pacid=22043112;longest=1;Parent=Aquca_001_00001
+scaffold_1	phytozome8_0	exon	6414	7127	.	-	.	ID=PAC:22043112.exon.1;Parent=PAC:22043112;pacid=22043112
+scaffold_1	phytozome8_0	three_prime_UTR	6414	6878	.	-	.	ID=PAC:22043112.three_prime_UTR.1;Parent=PAC:22043112;pacid=22043112
+scaffold_1	phytozome8_0	CDS	6879	7106	.	-	0	ID=PAC:22043112.CDS.1;Parent=PAC:22043112;pacid=22043112
