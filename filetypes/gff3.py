@@ -7,10 +7,9 @@ def check(filepath):
 		return False
 	line = f.readline()
 	pieces = re.split('\t', line)
-	print pieces
 	if len(pieces) == 9:
 		return True
 	return False
 
 def description():
-	return "GFF file for genome annotation"
+	return "GFF3 file for genome annotation"

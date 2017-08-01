@@ -9,3 +9,7 @@ def test_all():
 		if re.match("^\.", file) is None:
 			print "checking " + file
 			assert validate.validate(os.path.join('test',file)), "%s is INVALID FILE FORMAT" % file
+
+if __name__ == '__main__':
+    test_all()
+
