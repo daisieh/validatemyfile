@@ -1,6 +1,6 @@
 def check(filepath):
-	import fastq
-	return fastq.check(filepath)
+	import fasta
+	return fasta.check(filepath)
 
 def description():
-	return "FASTQ format for gene sequences"
+	return "FASTA format for gene sequences"

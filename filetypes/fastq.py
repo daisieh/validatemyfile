@@ -17,6 +17,9 @@ def check(filepath):
 	while re.match("^\+", line) is None:
 		secondline = secondline + line
 		line = f.readline().rstrip()
+		if line == '':
+			return False
+
 		
 	if line == '':
 		return False
