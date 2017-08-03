@@ -7,7 +7,7 @@ def test_all():
 	files = os.listdir('test')
 	for file in files:
 		if re.match("^\.", file) is None:
-			print "checking " + file
+			print("checking " + file)
 			assert validate.validate(os.path.join('test',file)), "%s is INVALID FILE FORMAT" % file
 
 if __name__ == '__main__':
